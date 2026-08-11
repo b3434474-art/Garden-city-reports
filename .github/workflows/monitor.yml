@@ -1,8 +1,8 @@
 name: Garden City Reports
 
 on:
-  schedule:
-    - cron: "*/30 * * * *"
+  # Monitoring is temporarily disabled.
+  # To turn it back on, restore the schedule below.
   workflow_dispatch:
 
 permissions:
